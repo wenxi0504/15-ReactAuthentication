@@ -54,11 +54,9 @@ const AuthForm = () => {
           });
         }
       })
-      .then((data) => {
-        console.log(data);
-      })
+      .then((data) => {})
       .catch((err) => {
-        alert(err.message);
+        alert(err);
       });
   };
 
