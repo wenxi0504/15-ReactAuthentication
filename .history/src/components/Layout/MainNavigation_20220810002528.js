@@ -27,11 +27,9 @@ const MainNavigation = () => {
             </li>
           )}
 
-          {isLoggedIn && (
-            <li>
-              <button>Logout</button>
-            </li>
-          )}
+          <li>
+            <button>Logout</button>
+          </li>
         </ul>
       </nav>
     </header>
